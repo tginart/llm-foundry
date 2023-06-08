@@ -177,7 +177,7 @@ c4constants.splits['val_xsmall'] = DataSplitConstants(hf_split='validation',
                                                       raw_samples=3000,
                                                       truncated_samples=3000)
 
-CONSTS = {'c4': c4constants, 'the_pile': pileconstants}
+CONSTS = {'c4': c4constants, 'the_pile': pileconstants, 'togethercomputer/RedPajama-Data-1T': c4constants}
 
 
 def build_hf_dataset(
